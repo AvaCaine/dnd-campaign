@@ -1,3 +1,3 @@
 [build]
-  command = "gem install jekyll bundler && jekyll build"
+  command = "gem update --system && gem install bundler -v 2.4.22 && gem install ffi -v 1.17.1 && gem install jekyll && jekyll build"
   publish = "_site"
